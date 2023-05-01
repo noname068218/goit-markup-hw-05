@@ -180,6 +180,7 @@ button {
   padding: 16px 32px;
   gap: 10px;
   display: block;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .flex-btn {
