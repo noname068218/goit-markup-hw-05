@@ -127,8 +127,6 @@ button {
 
   background-color: var(--link-ocean);
   border-radius: 2px;
-  color: var(--link-ocean);
-
   transition: var(--social-link);
 }
 
@@ -209,15 +207,10 @@ button {
 
   padding: 16px 32px;
   gap: 10px;
-  display: block;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.flex-btn {
-  display: flex;
-  justify-content: center;
-}
 .button-order:hover,
 .button-order:focus {
   background-color: var(--link-ocean);
