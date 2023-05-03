@@ -207,6 +207,8 @@ button {
 
   padding: 16px 32px;
   gap: 10px;
+  display: block;
+  margin: 0 auto;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -246,6 +248,7 @@ button {
     0px 2px 1px rgba(0, 0, 0, 0.2);
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: currentColor;
 }
 
 .backdrop.is-hidden {
@@ -294,6 +297,7 @@ button {
 
 .icon-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #2e2f42;
 }
 .btn-close .icon-close:hover,
 .btn-close .icon-close:focus {
