@@ -285,19 +285,18 @@ button {
   transform: translate(-50%, -50%) scale(1);
 }
 
-.btn-close:hover,
-.btn-close:focus {
-  background-color: var(--link-ocean);
-  border: none;
-  fill: #ffffff;
-}
-
 .icon-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: currentColor;
 }
-.btn-close .icon-close:hover,
-.btn-close .icon-close:focus {
+.btn-close:hover,
+.btn-close:focus {
+  background-color: var(--link-ocean);
+  border: none;
+}
+
+.icon-close:hover,
+.icon-close:focus {
   fill: #ffffff;
 }
 /* seconadry section*/
