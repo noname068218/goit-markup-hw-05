@@ -298,6 +298,7 @@ button {
 .icon-close:hover,
 .icon-close:focus {
   fill: #ffffff;
+  color: #ffffff;
 }
 /* seconadry section*/
 
