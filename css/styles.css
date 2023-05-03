@@ -248,7 +248,6 @@ button {
     0px 2px 1px rgba(0, 0, 0, 0.2);
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: currentColor;
 }
 
 .backdrop.is-hidden {
@@ -290,14 +289,12 @@ button {
 .btn-close:focus {
   background-color: var(--link-ocean);
   border: none;
-}
-.close {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #ffffff;
 }
 
 .icon-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: #2e2f42;
+  fill: currentColor;
 }
 .btn-close .icon-close:hover,
 .btn-close .icon-close:focus {
