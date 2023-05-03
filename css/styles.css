@@ -295,7 +295,11 @@ button {
   border: none;
 }
 
-.icon-close:hover,
+.icon-close:hover {
+  fill: #ffffff;
+  color: #ffffff;
+}
+
 .icon-close:focus {
   fill: #ffffff;
   color: #ffffff;
