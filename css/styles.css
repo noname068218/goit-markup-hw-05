@@ -728,7 +728,6 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.text-app:hover {
-  transform: translateY(5%);
-  overflow: visible;
+.box-img:hover {
+  transform: translateY(0%);
 }
