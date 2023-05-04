@@ -299,11 +299,16 @@ button {
   border: none;
 }
 
-.icon-close:hover,
-.icon-close .btn-close:focus {
+.btn-close:focus .icon-close {
   fill: #ffffff;
   color: #ffffff;
 }
+
+.btn-close:hover .icon-close {
+  fill: #ffffff;
+  color: #ffffff;
+}
+
 /* seconadry section*/
 
 .seconadry-section {
