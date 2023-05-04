@@ -300,7 +300,7 @@ button {
 }
 
 .icon-close:hover,
-.icon-close:focus {
+.icon-close .btn-close:focus {
   fill: #ffffff;
   color: #ffffff;
 }
