@@ -130,6 +130,10 @@ button {
   transition: var(--social-link);
 }
 
+.color-nav-selected {
+  color: var(--link-ocean);
+}
+
 /* menu contacts*/
 
 .main-contacts {
@@ -729,5 +733,8 @@ img {
 }
 
 .image:hover .text-app {
+  transform: translateY(0%);
+}
+.image:focus .text-app {
   transform: translateY(0%);
 }
